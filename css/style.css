@@ -13,10 +13,19 @@ body {
     background-color: black;
 }
 
+/*** header ***/
+
+header {
+    height: 100px;
+}
+
 .container {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
 }
+
+/* speaker - zoom */
 
 .container > *  {
     background-color: grey;
@@ -28,4 +37,47 @@ body {
 
 .speaker i {
     margin-right: 4px;
+}
+
+
+
+/*** main ***/
+
+main {
+    width: 100wh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+/* img */
+
+.img {
+    position: relative;
+    margin: 10px 5px;
+}
+
+
+
+
+/* icon-text */
+
+.icon-text {
+    background-color: grey;
+    color:white;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 5px;
+    margin-bottom: 4px;  
+}
+
+
+/*** footer ***/
+
+footer {
+    min-height: 100px;
+    background-color:#222222;
 }
