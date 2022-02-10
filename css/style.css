@@ -8,3 +8,24 @@
 body {
     font-family: sans-serif;
 }
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > *  {
+    background-color: grey;
+    color: white;
+    padding: 7px;
+    margin: 5px 4px;
+    border-radius: 5px;
+}
+
+.speaker i {
+    margin-right: 4px;
+}
