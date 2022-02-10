@@ -78,6 +78,80 @@ main {
 /*** footer ***/
 
 footer {
+    display: flex;
     min-height: 100px;
     background-color:#222222;
+    
+
+}
+
+footer > * {
+    width: calc(100% / 3);
+    border: 1px solid red;
+}
+
+/* section-left */
+
+.section-left {
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-left i {
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+/* icone */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.column i {
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* section center */
+
+.section-center {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/* section right */
+.section-right {
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+.text-right {
+    background-color: #4a4a4a;
+    color: red;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
 }
